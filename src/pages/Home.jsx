@@ -935,7 +935,7 @@ function Home() {
 
                             <Link
                                 to="/membership"
-                                className="group mt-auto flex items-center justify-between border border-white/15 px-5 py-4 pt-4 text-[9px] font-bold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:border-white hover:bg-white hover:text-black"
+                                className="group mt-auto flex items-center justify-between border border-white/15 px-5 py-4 pt-4 text-[9px] font-bold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:border-white hover:bg-[#171717] hover:text-black"
                             >
                                 View Plan
 
@@ -1084,7 +1084,7 @@ function Home() {
 
                             <Link
                                 to="/membership"
-                                className="group mt-auto flex items-center justify-between border border-white/15 px-5 py-4 text-[9px] font-bold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:border-white hover:bg-white hover:text-black"
+                                className="group mt-auto flex items-center justify-between border border-white/15 px-5 py-4 text-[9px] font-bold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:border-white hover:bg-[#171717] hover:text-black"
                             >
                                 View Plan
 
@@ -1281,6 +1281,292 @@ function Home() {
                     </div>
 
                 </div>
+            </section>
+
+            {/* GALLERY */}
+            <section className="bg-[#111111] px-6 py-24 sm:py-28 lg:px-8 lg:py-36">
+                <div className="mx-auto max-w-7xl">
+
+                    {/* Header */}
+                    <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+
+                        <div>
+                            <div className="mb-5 flex items-center gap-3">
+                                <span className="h-px w-9 bg-[#FF5A1F]" />
+
+                                <span className="text-[9px] font-semibold uppercase tracking-[0.3em] text-[#FF5A1F]">
+                                    Inside IronForge
+                                </span>
+                            </div>
+
+                            <h2 className="font-display text-7xl uppercase leading-[0.8] tracking-tight text-white sm:text-8xl lg:text-9xl">
+                                The Work.
+                                <br />
+                                <span className="text-[#FF5A1F]">
+                                    The Energy.
+                                </span>
+                            </h2>
+                        </div>
+
+                        <div className="max-w-sm md:pb-2">
+                            <p className="text-sm leading-7 text-white/40">
+                                Step inside the space where discipline becomes
+                                routine and every session is another step forward.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    {/* Gallery Grid */}
+                    <div className="mt-16 grid gap-3 sm:grid-cols-2 lg:mt-20 lg:grid-cols-12 lg:grid-rows-[280px_220px_280px]">
+
+                        {/* Image 01 — Large */}
+                        <div className="group relative min-h-[420px] overflow-hidden sm:col-span-2 lg:col-span-5 lg:row-span-2 lg:min-h-0">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1400&q=85"
+                                alt="IRONFORGE gym interior"
+                                className="h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                            />
+
+                            <div className="absolute inset-0 bg-black/10 transition-colors duration-500 group-hover:bg-black/30" />
+
+                            <div className="absolute left-5 top-5">
+                                <span className="text-[9px] font-semibold uppercase tracking-[0.25em] text-white/60">
+                                    01 / Training Floor
+                                </span>
+                            </div>
+
+                            <div className="absolute bottom-5 left-5">
+                                <p className="font-display text-3xl uppercase text-white">
+                                    Built To Perform
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        {/* Image 02 */}
+                        <div className="group relative min-h-[260px] overflow-hidden lg:col-span-3 lg:min-h-0">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1000&q=85"
+                                alt="Athlete lifting weights"
+                                className="h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                            />
+
+                            <div className="absolute inset-0 bg-black/15 transition-colors duration-500 group-hover:bg-black/30" />
+
+                            <div className="absolute bottom-5 left-5">
+                                <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-white/55">
+                                    02 / Strength
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        {/* Image 03 */}
+                        <div className="group relative min-h-[260px] overflow-hidden lg:col-span-4 lg:min-h-0">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1200&q=85"
+                                alt="Athlete workout"
+                                className="h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                            />
+
+                            <div className="absolute inset-0 bg-black/15 transition-colors duration-500 group-hover:bg-black/30" />
+
+                            <div className="absolute bottom-5 left-5">
+                                <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-white/55">
+                                    03 / Performance
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        {/* Image 04 */}
+                        <div className="group relative min-h-[260px] overflow-hidden lg:col-span-4 lg:min-h-0">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=1200&q=85"
+                                alt="Gym strength equipment"
+                                className="h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                            />
+
+                            <div className="absolute inset-0 bg-black/15 transition-colors duration-500 group-hover:bg-black/30" />
+
+                            <div className="absolute bottom-5 left-5">
+                                <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-white/55">
+                                    04 / Equipment
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        {/* Image 05 — Wide */}
+                        <div className="group relative min-h-[300px] overflow-hidden sm:col-span-2 lg:col-span-5 lg:min-h-0">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1400&q=85"
+                                alt="Modern gym training area"
+                                className="h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                            />
+
+                            <div className="absolute inset-0 bg-black/15 transition-colors duration-500 group-hover:bg-black/30" />
+
+                            <div className="absolute bottom-5 left-5">
+                                <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-white/55">
+                                    05 / The Environment
+                                </span>
+                            </div>
+
+                        </div>
+
+
+                        {/* Image 06 */}
+                        <div className="group relative min-h-[300px] overflow-hidden sm:col-span-2 lg:col-span-3 lg:min-h-0">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=85"
+                                alt="IRONFORGE training environment"
+                                className="h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                            />
+
+                            <div className="absolute inset-0 bg-black/15 transition-colors duration-500 group-hover:bg-black/30" />
+
+                            <div className="absolute bottom-5 left-5">
+                                <span className="text-[9px] font-semibold uppercase tracking-[0.2em] text-white/55">
+                                    06 / Community
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    {/* Gallery CTA */}
+                    <div className="mt-10 flex justify-end">
+
+                        <Link
+                            to="/gallery"
+                            className="group inline-flex items-center gap-4 border-b border-white/20 pb-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-white transition-all duration-300 hover:border-[#FF5A1F] hover:text-[#FF5A1F]"
+                        >
+                            Explore Full Gallery
+
+                            <ArrowUpRight
+                                size={15}
+                                className="transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
+                            />
+                        </Link>
+
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Final CTA */}
+            <section className="relative overflow-hidden border-t border-white/10 bg-[#080808]">
+
+                {/* Background Image */}
+                <div className="absolute inset-0">
+                    <img
+                        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=2400&q=90"
+                        alt="Athlete training in IronForge gym"
+                        className="h-full w-full object-cover object-center"
+                    />
+
+                    {/* Dark overlay */}
+                    <div className="absolute inset-0 bg-black/75" />
+
+                    {/* Orange atmospheric glow */}
+                    <div className="absolute right-0 top-1/2 h-[500px] w-[500px] -translate-y-1/2 translate-x-1/3 rounded-full bg-[#FF5A1F]/10 blur-[120px]" />
+
+                    {/* Bottom fade */}
+                    <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#080808] to-transparent" />
+                </div>
+
+
+                {/* Content */}
+                <div className="relative mx-auto max-w-7xl px-5 py-28 sm:px-6 sm:py-36 lg:px-8 lg:py-44">
+
+                    <div className="max-w-4xl">
+
+                        {/* Eyebrow */}
+                        <div className="mb-7 flex items-center gap-3">
+
+                            <span className="h-px w-10 bg-[#FF5A1F]" />
+
+                            <span className="text-[10px] font-semibold uppercase tracking-[0.28em] text-[#FF5A1F]">
+                                Your Time Is Now
+                            </span>
+
+                        </div>
+
+
+                        {/* Heading */}
+                        <h2 className="max-w-4xl font-display text-[4.5rem] leading-[0.82] tracking-tight text-white sm:text-[6rem] lg:text-[8rem]">
+
+                            READY TO
+
+                            <br />
+
+                            GET
+
+                            <span className="text-[#FF5A1F]"> STRONGER?</span>
+
+                        </h2>
+
+
+                        {/* Description */}
+                        <p className="mt-8 max-w-xl text-sm leading-7 text-white/60 sm:text-base">
+                            Stop waiting for the right time. Start building the strongest
+                            version of yourself today.
+                        </p>
+
+
+                        {/* CTA */}
+                        <div className="mt-9 flex flex-col items-start gap-5 sm:flex-row sm:items-center">
+
+                            <Link
+                                to="/contact"
+                                className="group inline-flex items-center gap-3 bg-[#FF5A1F] px-7 py-4 text-[10px] font-bold uppercase tracking-[0.18em] text-white transition-all duration-300 hover:bg-[#ff6b35]"
+                            >
+                                Start Free Trial
+
+                                <ArrowUpRight
+                                    size={15}
+                                    strokeWidth={2.5}
+                                    className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                                />
+                            </Link>
+
+                            <span className="text-[9px] font-medium uppercase tracking-[0.2em] text-white/35">
+                                No Commitment • Just Get Started
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    {/* Bottom statement */}
+                    <div className="mt-24 flex items-center gap-4 border-t border-white/10 pt-6">
+
+                        <span className="h-1.5 w-1.5 rounded-full bg-[#FF5A1F]" />
+
+                        <span className="text-[9px] font-semibold uppercase tracking-[0.22em] text-white/35">
+                            Built. Not Born.
+                        </span>
+
+                    </div>
+
+                </div>
+
             </section>
 
         </main>
